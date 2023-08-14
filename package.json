@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
-    "lint": "tsc"
+    "lint": "tsc",
+    "release": "pnpm run build && changeset publish"
   },
   "keywords": [],
   "author": "abelghalem",
