@@ -7,8 +7,8 @@ const meta: Meta<typeof Component> = {
 
 export default meta;
 
-export const Primary: StoryObj<typeof Component> = {
+export const Example: StoryObj<typeof Component> = {
   args: {
-    title: "Primary",
+    title: "Example",
   },
 };
